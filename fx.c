@@ -11,7 +11,7 @@ double cos(double);
 double fabs(double);
 double fx(double kd, double theta){
 
-// factor og Z_0*I_0* I_0 / (8 * pow(pi, 2.0)) is missing on the return
+// factor of Z_0*I_0* I_0 / (8 * pow(pi, 2.0)) is missing on the return
 //  return fabs(pow((cos(kd*cos(theta)/2.0)-cos(kd/2.0))/sin(theta),2.0)*sin(theta))*sin(theta);
   return fabs(pow((cos(kd*cos(theta)/2.0)-cos(kd/2.0))/sin(theta),2.0)*sin(theta));
 }
